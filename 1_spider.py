@@ -13,7 +13,7 @@ common_param = {}
 
 for ipt in hids:
     common_param.update({ipt.get("name"):ipt.get("value")})
-    print(ipt.get("name"),'**************************************',ipt.get("value"))
+    print(ipt.get("name"),'*********************************',ipt.get("value"))
 
 for i in range(2, 3):
     common_param.update({"__CALLBACKPARAM": f"Load|*|{2}",
